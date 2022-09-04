@@ -1,0 +1,7 @@
+job_name: my_job
+module: test
+function: timeout_test
+kwargs:
+  is: TRUE
+  x: 1
+  str: "hello"

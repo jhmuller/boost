@@ -1,0 +1,7 @@
+job_name: my_job
+script: test.py
+function: foo
+func_kwargs:
+  - on: true
+  - x: 1
+  - str: "hello"

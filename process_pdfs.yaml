@@ -1,0 +1,12 @@
+job_name: pdf_job
+module: extract_from_pdfs
+function: run_job
+kwargs:
+  source_dir: './contracts/Contracts_-_All'
+  dest_dir: extracted_pdfs
+  num_workers: 4
+  verbosity: 3
+  extract_text: False
+  extract_tables: True
+  log_file_name: extract_log
+  max_items: 2600
